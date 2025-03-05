@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* dhared css */
+.dark-1{
+    color: #181818;
+}
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    padding: 19px 36px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.btn-primary:hover{
+    background-color: #f17218;
+    transform: scale(1.02);
+}
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #FFF8F3;
+    
+}
+
+/* nav styles */
+nav{
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 150px;
+   padding-top:40px
+   
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 50px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    transition: transform 0.5s ease-in;
+}
+nav ul li a:hover{
+    color: #f56f10;
+    font-weight: 600;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.logo-color{
+    color: #FD6E0A;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 150px;
+}
+.banner-content{
+    max-width: 580px;
+    padding-top: 185px;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600; 
+    margin-bottom: 0; 
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.banner-contact{
+    margin-left: 30px;
+}
+.banner-profile-pic{
+    width: 580px;
+    margin-top: 50px;
+
+}
