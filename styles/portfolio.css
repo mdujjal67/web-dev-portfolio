@@ -197,3 +197,49 @@ nav ul li a:hover{
 .resume-section{
     margin-top: 120px;
 }
+.resume-container{
+    margin-top: 110px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.resume-left-title, .resume-right-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    width: 511px;
+    margin-bottom: 30px;
+}
+.resume-left-title{
+    margin-right: 70px;
+}
+/* .education-2{
+    margin: 30px 0;
+} */
+.education-title, .experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.education-subtitle, .experience-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.education-description, .experience-description{
+    color: #757575;
+    font-size: 16px;
+}
+.resume-1-border{
+    width: 558px;
+    color:#D1D1D1;
+    margin: 30px 0;
+}.resume-2-border{
+    width: 558px;
+    color:#D1D1D1;
+    margin: 30px 0;
+}
+.download-btn-center{
+    margin: 0 auto;
+}
