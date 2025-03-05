@@ -4,12 +4,16 @@ body{
     margin-top: 0;
     
 }
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-/* dhared css */
+/*----------- shared css -------------*/
 .dark-1{
     color: #181818;
 }
@@ -34,16 +38,20 @@ body{
     background-color: #f17218;
     transform: scale(1.02);
 }
+.text-white:hover{
+    color: white;
+}
 
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: top left, bottom right;  
+}
+.section-bg{
     background-color: #FFF8F3;
-    
 }
 
-/* nav styles */
+/*----------- nav styles------------ */
 nav{
    display: flex; 
    align-items: center;
@@ -78,7 +86,12 @@ nav ul li a:hover{
     color: #FD6E0A;
 }
 
-/* banner styles */
+.no-bg-color{
+    background-color: transparent;
+    border: 1px solid #FD6E0A;
+}
+
+/* ---------------banner styles---------------- */
 .banner{
     display: flex;
     justify-content: space-between;
@@ -103,10 +116,40 @@ nav ul li a:hover{
     margin-bottom: 30px;
 }
 .banner-contact{
-    margin-left: 30px;
+    margin-left: 20px;
+    color: #FD6E0A;
 }
 .banner-profile-pic{
     width: 580px;
     margin-top: 50px;
+}
 
+/* ----------------about section---------------- */
+.about{
+    margin-top: 120px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    margin: 30px 0;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-item{
+    font-size: 18px;
+    color: #757575;
+}
+.item-description{
+    color: #474747;
+    font-weight: bold;
 }
