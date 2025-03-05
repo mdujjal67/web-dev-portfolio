@@ -4,7 +4,7 @@ body{
     margin-top: 0;
     
 }
-main{
+main , .footer-container{
     width: 1140px;
     margin: 0 auto;
 }
@@ -242,4 +242,47 @@ nav ul li a:hover{
 }
 .download-btn-center{
     margin: 0 auto;
+    display: block;
+    margin-bottom: 110px;
+}
+
+/* ------------footer---------- */
+.footer{
+    padding: 120px 0;
+}
+/* .footer-left-col{
+    margin-right: 110px;
+} */
+.footer-description{
+    font-size: 16px;
+}
+.footer-left-col, .footer-right-col{
+    width: 50%;
+    
+}
+.middle-social-link{
+    margin: 0 24px;
+}
+.footer-right-col{
+    margin-left: 100px;
+}
+.left-align{
+    text-align: left;
+}
+.footer-container{
+    display: flex;
+}
+.contact-form{
+    margin-top: 28px;
+}
+.contact-form input[type="text"], .contact-form input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 25px;
+    color: #757575;
+    background-color: white;
+    border-radius: 8px;
+    border: 0;
+    width: 100%;
+
 }
